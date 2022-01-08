@@ -1,0 +1,24 @@
+{
+  "name": "growing-smart",
+  "version": "1.0.0",
+  "description": "react app to organize and keep track of smart goals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariana-lab/growing-smart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariana-lab/growing-smart/issues"
+  },
+  "homepage": "https://github.com/mariana-lab/growing-smart#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
