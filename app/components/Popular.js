@@ -23,12 +23,12 @@ export default class Popular extends React.Component {
   changeLanguage(language) {
     const { reposByLanguage } = this.state;
 
-    //should mean updaate the selected state
+    //should mean update the selected state
     this.setState({ selectedLanguage: language });
 
     if (!reposByLanguage[language]) {
       //fetch the repos
-      //update reposBylanguage
+      //update reposByLanguage
       fetchRepos(language).then((repos) => this.addRepos({ language, repos }));
     }
   }
